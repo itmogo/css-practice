@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::website_template</title>
+	<link rel="stylesheet" type="text/css" href="website.css">
+	<style>
+	
+	*{
+		box-sizing: border-box;	
+	}
+
+body{
+	margin-top: 20px;
+	background-color: none;
+	font-family: 	Arial;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	
+}
+.flex-container1{
+	display: flex;
+	background-color: #5bb59a;
+	justify-content: center	;
+	color: white;
+	height: 190px;
+	padding:40px 0; 
+}
+.flex-container1 > div {
+	color: white;
+}
+
+.flex-container2{
+	display: flex;
+	background-color: black;
+	color: white;
+}
+.flex-container2 > div{
+	display: inline-block;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+.flex-container3{
+	display: flex;
+	background-color:;
+}
+
+.flex-footer{
+	display: flex;
+	background-color: #dddddd;
+	justify-content: center;
+}
+
+.flex-footer > div {
+	width: 100%;
+	height: 57px;
+	text-align: center;
+	margin: 10px; 
+	padding-top: 20px; 	 	
+}
+
+.flex-container3 > div.about{
+	width: 30%;
+	background-color: #f1f1f1;
+	padding-left: 	15px;
+}
+
+.flex-container3 > div.title{
+	width: 70%;
+	background-color: navy-blue;
+	padding-left: 	15px;
+}
+.myphoto{
+	/*width: 150px; */
+	width: 95%;
+	height: 150px;
+	background-color:  #aaa;
+	padding-left: 	18px;
+	padding-top: 	18px;
+}
+
+
+.img2, .img3, .img4{
+	/*width: 150px; */
+	width: 95%;
+	height: 50px;
+	background-color: gray;
+	padding-left: 	18px;
+	padding-top: 	18px;
+}
+
+.myphoto4{
+	
+	width: 98%;
+	height: 150px;
+	background-color: gray;
+} 
+
+.myphoto5{
+	
+	width: 98%;
+	height: 150px;
+	background-color: gray;
+}
+.flex-main{	
+	background-color: white;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 300px;
+
+}
+.myphoto1 >img{
+	text-align: center;	
+}
+.image1{
+	width: 98%;
+	height: 150px;
+	background-color: gray;
+	text-align: left;
+	padding-left: 	18px;
+	padding-top: 	18px;
+}
+.header{
+	padding-left: 10px;
+}
+
+
+	</style>
+</head>
+<body>
+	<!--main flex code-->
+	<div class="flex-main">
+	<!--header info-->
+	<div class="flex-container1">
+		<div>
+			<h1>My Website</h1>
+			<p class="header">With a flexible layout.</p>
+		</div>
+		<!--banner info-->
+	</div>
+	<div class="flex-container2">
+		<div>Link</div>
+		<div>Link</div>
+		<div>Link</div>
+		<div>Link</div>
+	</div>
+
+	<!--about me code-->
+	<div class="flex-container3">
+		<div class="about">
+			<h2>About Me</h2>
+			<p><strong>I am the Signatue of God</strong></p>
+			<p class="myphoto"><strong>Image</strong></p>
+			<!--p class="myphoto"><img src="" alt="Photo of me"></p-->
+			<caption>I am a lover of technology</caption><br>
+
+			<h3>More Text</h3>
+			<p>Life is full of art and imaginations</p>
+			<p class="img2"><strong>Image</strong></p>
+			<p class="img3"><strong>Image</strong></p>
+			<p class="img4"><strong>Image</strong></p>
+		    
+			<!--p class="myphoto1">
+			<img src="1" alt="image " width="" height=""><br></p>
+			<p class="myphoto2">
+			<img src="1" alt="image " width=""><br></p>
+			<p class="myphoto3">
+			<img src="1" alt="image " width=""><br></p-->
+		</div>
+		<!--title heading code--->
+		<div class="title">
+			<h2>TITLE HEADING</h2>
+			<p><strong>This description, Oct 26, 2020</strong></p>
+			<!--p class="myphoto4">
+			<img src="image.jpg"  alt="image 1" width="320px">
+			<caption>some text...</caption> <br-->
+			<p class="image1"><strong>Image</strong></p>
+			<p>Some text....</p>
+
+
+			<p> I like trying new things and whatever I set my mind to do succeeds. So here at Codetrain am about to make another history - A Software Engineer in the making. Thanks to Codetrain - Making Dreams Come True!!!!!!!
+			</p><br>
+
+
+			<h2>TITLE HEADING</h2>
+			<p><strong>This description, Oct 26, 2020</strong></p>
+			<!--p class="myphoto5">
+			<img src="image.jpg"  alt="image 1" width="320px"><br>
+			<caption>some text...</caption> <br-->
+			<p class="image1"><strong>Image</strong></p>
+			<p>Some text....</p>
+
+			<p>This website was created using CSS Flexbox and HTML. Its interesting how templates of websites can be made so fast and flexible.	
+			</p><br>
+		</div>				
+	</div>
+	<!--footer code-->
+	<div class="flex-footer">
+		<div><strong>Footer</strong></div>
+		</div>		
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::website_template</title>
+	<link rel="stylesheet" type="text/css" href="website.css">
+	<style>
+	
+	*{
+		box-sizing: 	border-box;	
+	}
+
+body{
+	margin-top: 25px;
+	background-color: #aaa;
+	
+}
+.flex-container1{
+	display: flex;
+	background-color: green;
+	justify-content: center;
+	color: white;
+
+
+}
+.flex-container1 > div {
+	color: white;
+}
+
+.flex-container2{
+	display: flex;
+	background-color: black;
+	color: white;
+}
+.flex-container2 > div{
+	display: inline-block;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+.flex-container3{
+
+	display: flex;
+	background-color:;
+
+}
+.flex-container3 > div{
+
+
+}
+
+.flex-footer{
+	display: flex;
+	background-color: #dddddd;
+	justify-content: center;
+}
+
+.flex-footer > div {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	margin: 10px; 
+}
+
+.flex-container3 > div.about{
+	width: 30%;
+	background-color: #C0C0C0;
+	padding-left: 	15px;
+}
+
+.flex-container3 > div.title{
+	width: 70%;
+	background-color: navy-blue;
+	padding-left: 	15px;
+}
+.myphoto{
+	/*width: 150px; */
+	width: 95%;
+	height: 150px;
+	background-color:  #aaa;
+
+}
+.myphoto1, .myphoto2, .myphoto3{
+	/*width: 150px; */
+	width: 95%;
+	height: 50px;
+	background-color: gray;
+}
+/*.myphoto2{
+
+	width: 95%;
+	height: 40px;
+	background-color: gray;
+}
+.myphoto3{
+	
+	width: 95%;
+	height: 40px;
+	background-color: gray;
+} */
+.myphoto4{
+	
+	width: 98%;
+	height: 150px;
+	background-color: gray;
+} 
+
+.myphoto5{
+	/*width: 150px; */
+	width: 98%;
+	height: 150px;
+	background-color: gray;
+}
+.flex-main{	
+	background-color: white;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 300px;
+
+}
+.myphoto1 >img{
+	text-align: center;	
+}
+
+
+	</style>
+</head>
+<body>
+	<div class="flex-main">
+	<!--header info-->
+	<div class="flex-container1">
+		<div>
+			<h1>My Website</h1>
+			<p>With a flexible layout.</p>
+		</div>
+		<!--banner info-->
+	</div>
+	<div class="flex-container2">
+		<div>Link</div>
+		<div>Link</div>
+		<div>Link</div>
+		<div>Link</div>
+	</div>
+
+	<!--left float flex container-->
+	<div class="flex-container3">
+		<div class="about">
+			<h2>About Me</h2>
+			<p>Photo of me</p>
+
+			<p class="myphoto"><img src="" alt="Photo of me"></p>
+			<caption>Some text of me in french language</caption><br>
+
+			<h3>More Text</h3>
+			<p>Lorem ipsum dolor sit ame</p>
+			<p class="myphoto1">
+			<img src="1" alt="image " width="" height=""><br></p>
+			<p class="myphoto2">
+			<img src="1" alt="image " width=""><br></p>
+			<p class="myphoto3">
+			<img src="1" alt="image " width=""><br></p>
+		</div>
+		<div class="title">
+			<h2>TITLE HEADING</h2>
+			<p>This description, Dec 7, 2017</p>
+			<p class="myphoto4">
+			<img src="image.jpg"  alt="image 1" width="320px">
+			<caption>some text...</caption> <br>
+
+
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam	
+			</p><br>
+
+
+			<h2>TITLE HEADING</h2>
+			<p>This description, Dec 7, 2017</p>
+			<p class="myphoto5">
+			<img src="image.jpg"  alt="image 1" width="320px"><br>
+			<caption>some text...</caption> <br>
+
+
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam	
+			</p><br>
+		</div>
+				
+	</div>
+
+	<!--footer code-->
+	<div class="flex-footer">
+		<div>Footer</div>
+		</div>		
+	
+</div>
+</body>
+</html>
